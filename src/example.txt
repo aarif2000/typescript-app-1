@@ -1,0 +1,78 @@
+// let firstName = "fruit"
+
+// let count = 25 
+// let isloading:boolean = true 
+
+// let first1Name:undefined = undefined
+// let numbers:null = null 
+
+// let age:null | string=null
+
+// // object
+
+// const user:{name:string,age:number,id?:number} = {
+//   name: "testing",
+//   age: 24,
+//   id:1
+// }
+
+// //array
+
+
+// const fruits:string[]=["ak1", "ak2", "ak3"]
+// const num:number[]= [1,2,3,4,5] 
+// const users=[{id:1, name:"",}]
+
+
+// //functions
+
+// const sum= (a:number,b:number) =>{
+// return [a+b]
+// }
+
+// sum(5,9)
+
+// const handleApiResponse = (payload: {userId:number}, callback:(a:number, b:number)=>void) =>{
+//   callback(1,2)
+// }
+
+
+
+// // interface 
+
+// interface User{
+//   name:string;
+//   id:number
+//   getUser:()=>void
+// }
+
+
+// interface Person extends User{
+// }
+
+
+// let data:User = {
+// name:"fruits",
+// id:1,
+// getUser:()=> {
+  
+// },
+
+// department:''
+
+// }
+
+// type employee={
+//   id:number,
+//   name:string
+// }
+
+// type manager={
+//   department: string
+// } &employee
+
+// let employeewithmanager:manager = {
+//   department: "A",
+//   id:2,
+//   name:"surya"
+// }
